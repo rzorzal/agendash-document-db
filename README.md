@@ -4,7 +4,9 @@
 [![Known Vulnerabilities](https://snyk.io/test/github/agenda/agendash/badge.svg?targetFile=package.json)](https://snyk.io/test/github/agenda/agendash?targetFile=package.json)
 
 A Dashboard for [Agenda](https://github.com/agenda/agenda)
+
 Forked from [Agendash] (https://github.com/agenda/agendash)
+
 ---
 
 ### Features
