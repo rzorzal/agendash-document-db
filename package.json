@@ -17,12 +17,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/agenda/agendash.git"
+    "url": "git+https://github.com/rzorzal/agendash-document-db"
   },
   "bugs": {
-    "url": "https://github.com/agenda/agendash/issues"
+    "url": "https://github.com/rzorzal/agendash-document-db/issues"
   },
-  "homepage": "https://github.com/agenda/agendash#readme",
+  "homepage": "https://github.com/rzorzal/agendash-document-db#readme",
   "license": "MIT",
   "dependencies": {
     "@hapi/hapi": "^18.3.1",
