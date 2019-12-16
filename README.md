@@ -5,7 +5,7 @@
 
 A Dashboard for [Agenda](https://github.com/agenda/agenda)
 
-Forked from [Agendash] (https://github.com/agenda/agendash)
+Forked from [Agendash](https://github.com/agenda/agendash).
 
 ---
 
@@ -45,7 +45,7 @@ npm install --save agendash
 
 Agendash comes with a standalone Express app which you can use like this:
 
-```bash
+```bas
 ./node_modules/.bin/agendash --db=mongodb://localhost/agendaDb --collection=agendaCollection --port=3001
 ```
 
