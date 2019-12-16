@@ -1,0 +1,66 @@
+{
+  "name": "agendash",
+  "version": "1.0.0",
+  "description": "Agenda Dashboard",
+  "main": "app.js",
+  "bin": "bin/agendash-standalone.js",
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "scripts": {
+    "test": "run-p lint ava",
+    "lint": "xo",
+    "ava": "ava -v -c 1"
+  },
+  "keywords": [
+    "agenda"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agenda/agendash.git"
+  },
+  "bugs": {
+    "url": "https://github.com/agenda/agendash/issues"
+  },
+  "homepage": "https://github.com/agenda/agendash#readme",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/hapi": "^18.3.1",
+    "@hapi/inert": "^5.2.0",
+    "agenda": "^2.0.2",
+    "async": "^3.0.1",
+    "body-parser": "^1.19.0",
+    "commander": "^2.20.0",
+    "express": "^4.17.1",
+    "semver": "^5.3.0"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "npm-run-all": "^4.1.2",
+    "supertest": "^3.0.0",
+    "xo": "^0.18.2"
+  },
+  "xo": {
+    "space": 2,
+    "rules": {
+      "space-before-function-paren": [
+        "error",
+        "never"
+      ],
+      "max-params": [
+        "error",
+        5
+      ],
+      "max-nested-callbacks": [
+        "error",
+        5
+      ]
+    },
+    "envs": [
+      "node"
+    ],
+    "ignores": [
+      "public/**/*"
+    ]
+  }
+}
