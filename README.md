@@ -7,6 +7,8 @@ A Dashboard for [Agenda](https://github.com/agenda/agenda)
 
 Forked from [Agendash](https://github.com/agenda/agendash).
 
+Thanks to [Ghost](https://github.com/ghost) who submit a PR with the changes.
+
 ---
 
 ### Features
